@@ -27,15 +27,6 @@ export function start(content){
         // main content area
         let mainContent = document.createElement("div");
             mainContent.setAttribute("id", "main");
-        let contentLeft = document.createElement("div");
-            contentLeft.setAttribute("class", "left");
-        let contentCenter = document.createElement("div");
-            contentCenter.setAttribute("class", "center");
-        let contentRight = document.createElement("div");
-            contentRight.setAttribute("class", "right");
-        mainContent.appendChild(contentLeft);
-        mainContent.appendChild(contentCenter);
-        mainContent.appendChild(contentRight);
         content.appendChild(mainContent);
 
         // footer area
