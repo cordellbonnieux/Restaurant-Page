@@ -2,7 +2,7 @@
   "name": "restaurant",
   "version": "1.0.0",
   "description": "Restaurant page project, part of the JavaScript tract in The Odin Project's curriculum.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,1 @@
+export let doesItWork = alert('it does!');

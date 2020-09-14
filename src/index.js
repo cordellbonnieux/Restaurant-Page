@@ -1,1 +1,1 @@
-alert('HEYYY!!!');
+import doesItWork from './start.js';
