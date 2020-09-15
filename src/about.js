@@ -11,6 +11,9 @@ export function about(){
             Maecenas efficitur fermentum ligula, ac egestas turpis imperdiet et. Aenean et ex ante. 
             Quisque placerat mollis diam, sed interdum nisl molestie eu. In et neque eu quam consectetur gravida quis sed magna. 
             Mauris elit dui, vehicula sed nunc eu, fermentum consectetur est.`;
+        let imgWrapper = document.createElement('div');
+            imgWrapper.setAttribute("id", "aboutUsImg");
     about.appendChild(title);
     about.appendChild(para);
+    about.appendChild(imgWrapper);
 }

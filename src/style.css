@@ -1,0 +1,32 @@
+body{
+    background-color:pink;
+}
+#content{
+    width:80%;
+    max-width:960px;
+    margin:0 auto;
+    background-color:#fff;
+}
+    #menuWrapper{
+        height:50px;
+        background-color:#000;
+        color:#fff;
+        padding: 5px 25px;
+    }
+    #header{
+        height:300px;
+    }
+    #main{
+        min-height:500px;
+        padding: 5px 25px;
+    }
+        .tabsy > .tabButton{
+           /* display:inline-block; ?*/
+            max-height:50px;
+        }
+    #footer{
+        background-color:#000;
+        min-height:50px;
+        color:#fff;
+        padding: 5px 25px;
+    }
