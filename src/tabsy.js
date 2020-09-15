@@ -11,14 +11,15 @@ export function tabs(){
             let tab1Button = document.createElement("label");
                 tab1Button.setAttribute("class", "tabButton");
                 tab1Button.setAttribute("for", "tab1");
-                tab1Button.innerText = "About Us"
+                tab1Button.innerText = "About Us";
                 tabsy.appendChild(tab1Button);
             let tab1Tab = document.createElement("div");
                 tab1Tab.setAttribute("class", "tab");
                 tabsy.appendChild(tab1Tab);
                 let tab1Content = document.createElement("div");
                     tab1Content.setAttribute("class", "content");
-                    tab1Content.innerText = "all of that goes here...";
+                    tab1Content.setAttribute("id", "about");
+                    //tab1Content.innerText = "all of that goes here...";
                     tab1Tab.appendChild(tab1Content);
         // menu tab
         let tab2 = document.createElement("input");
@@ -30,7 +31,7 @@ export function tabs(){
             let tab2Button = document.createElement("label");
                 tab2Button.setAttribute("class", "tabButton");
                 tab2Button.setAttribute("for", "tab2");
-                tab2Button.innerText = "Menu"
+                tab2Button.innerText = "Menu" // add menu.js module
                 tabsy.appendChild(tab2Button);
             let tab2Tab = document.createElement("div");
                 tab2Tab.setAttribute("class", "tab");
@@ -39,5 +40,4 @@ export function tabs(){
                     tab2Content.setAttribute("class", "content");
                     tab2Content.innerText = "menu goes here...";
                     tab2Tab.appendChild(tab2Content);
-                
 }
