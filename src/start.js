@@ -2,15 +2,6 @@ export function start(content){
         // main menu
         let menuWrapper = document.createElement("div");
             menuWrapper.setAttribute("id", "menuWrapper");
-        let menuLeft = document.createElement("div");
-            menuLeft.setAttribute("class", "left");
-        let menuCenter = document.createElement("div");
-            menuCenter.setAttribute("class", "center");
-        let menuRight = document.createElement("div");
-            menuRight.setAttribute("class", "right");
-        menuWrapper.appendChild(menuLeft);
-        menuWrapper.appendChild(menuCenter);
-        menuWrapper.appendChild(menuRight);
         content.appendChild(menuWrapper);
 
         // header area
@@ -18,6 +9,7 @@ export function start(content){
             headerWrapper.setAttribute("id", "header");
         let headerLeft = document.createElement("div");
             headerLeft.setAttribute("class", "left");
+            headerLeft.setAttribute("id", "headerLeft");
         let headerRight = document.createElement("div");
             headerRight.setAttribute("class", "right");
         headerWrapper.appendChild(headerLeft);
