@@ -12,6 +12,7 @@ export function menu(){
             starter1.setAttribute("class", "menuItem");
             let starter1Img = document.createElement("div");
                 starter1Img.setAttribute("id", "starter1Img");
+                starter1Img.setAttribute("class", "menuImg");
             let starter1Title = document.createElement("h3");
                 starter1Title.textContent = "Starter 1"
             let starter1Price = document.createElement("span");
@@ -28,6 +29,7 @@ export function menu(){
             starter2.setAttribute("class", "menuItem");
             let starter2Img = document.createElement("div");
                 starter2Img.setAttribute("id", "starter2Img");
+                starter2Img.setAttribute("class", "menuImg");
             let starter2Title = document.createElement("h3");
                 starter2Title.textContent = "Starter 2"
             let starter2Price = document.createElement("span");
@@ -44,6 +46,7 @@ export function menu(){
             starter3.setAttribute("class", "menuItem");
             let starter3Img = document.createElement("div");
                 starter3Img.setAttribute("id", "starter3Img");
+                starter3Img.setAttribute("class", "menuImg");
             let starter3Title = document.createElement("h3");
                 starter3Title.textContent = "Starter 3"
             let starter3Price = document.createElement("span");

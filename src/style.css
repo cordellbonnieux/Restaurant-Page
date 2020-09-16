@@ -19,11 +19,60 @@ body{
     #main{
         min-height:500px;
         padding: 5px 25px;
+        position:relative;
     }
         .tabsy > .tabButton{
-           /* display:inline-block; ?*/
-            max-height:50px;
+            position: absolute;
+            top:-1px;
+            z-index:3;
+            height:32px;
+            background:transparent;
+            color:#fff;
+            padding:13px 10px 5px 10px;
         }
+            .tabsy > input:checked + label{
+                color:#000;
+            }
+        .tabsy > .tab{
+            position: absolute;
+            z-index:2;
+            left:0;
+            top:0;
+            width:100%;
+            border-top:50px solid #000;
+        }
+            .content{
+                width:90%;
+                margin:20px auto;
+            }
+        .tab2Button{
+            left:125px;
+        }
+        .tab3Button{
+            left:200px;
+        }
+        .starters{
+            display:flex;
+            flex-wrap:wrap;
+            align-items: flex-start;
+        }
+            .menuItem{
+                display:inline-block;
+                /*width:230px;*/
+                margin:10px;
+            }
+                .menuItem h3{
+                    display:inline-block;
+                    margin-right:6px;
+                }
+                .menuItem span{
+                    display:inline-block;
+                }
+                .menuItem .menuImg{
+                    width:230px;
+                    height:230px;
+                    background-color:blue;
+                }
     #footer{
         background-color:#000;
         min-height:50px;
