@@ -13,7 +13,8 @@
         text-align:right;
     }
 body{
-    background-color:pink;
+    background:url("./img/wallpaper.png");
+    background-repeat: repeat;
 }
 #content{
     width:80%;
@@ -38,6 +39,7 @@ body{
             #header #donMascot{
                 max-width:75%;
                 display:inline-block;
+                max-height: 600px;
             }
     #main{
         min-height:500px;
@@ -82,7 +84,7 @@ body{
             .menuItem{
                 display:inline-block;
                 max-width:200px;
-                margin:10px;
+                margin:10px auto;
             }
                 .menuItem h3{
                     display:inline-block;
