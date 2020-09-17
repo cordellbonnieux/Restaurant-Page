@@ -12,7 +12,7 @@ export function about(){
             Quisque placerat mollis diam, sed interdum nisl molestie eu. In et neque eu quam consectetur gravida quis sed magna. 
             Mauris elit dui, vehicula sed nunc eu, fermentum consectetur est.`;
         let imgWrapper = document.createElement('div');
-            imgWrapper.setAttribute("id", "aboutUsImg");
+            imgWrapper.setAttribute("id", "aboutUsImgSection");
     about.appendChild(title);
     about.appendChild(para);
     about.appendChild(imgWrapper);
