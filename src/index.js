@@ -3,6 +3,7 @@ import {tabs} from "./tabsy.js";
 import {about} from "./about.js";
 import {menu} from "./menu.js";
 import {top} from "./top.js";
+import {contact} from "./contact.js";
     // load images
     import background from "./img/wallpaper.png";
     import donBanner from "./img/dons-banner.jpg";
@@ -27,6 +28,7 @@ tabs();
 about();
 top();
 menu();
+contact();
 // add images
 function mascotDon(){
     // don mascot

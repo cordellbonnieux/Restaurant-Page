@@ -21,7 +21,6 @@ export function tabs(){
                 let tab1Content = document.createElement("div");
                     tab1Content.setAttribute("class", "content");
                     tab1Content.setAttribute("id", "about");
-                    //tab1Content.innerText = "all of that goes here...";
                     tab1Tab.appendChild(tab1Content);
         // menu tab
         let tab2 = document.createElement("input");
@@ -41,7 +40,6 @@ export function tabs(){
                 let tab2Content = document.createElement("div");
                     tab2Content.setAttribute("class", "content");
                     tab2Content.setAttribute("id", "menu");
-                    // tab2Content.innerText = "menu goes here...";
                     tab2Tab.appendChild(tab2Content);
         // contact tab
         let tab3 = document.createElement("input");
@@ -60,6 +58,6 @@ export function tabs(){
                 tabsy.appendChild(tab3Tab);
                 let tab3Content = document.createElement("div");
                     tab3Content.setAttribute("class", "content");
-                    tab3Content.innerText = "contact, number email etc all goes here...";
+                    tab3Content.setAttribute("id", "contact");
                     tab3Tab.appendChild(tab3Content);
 }
