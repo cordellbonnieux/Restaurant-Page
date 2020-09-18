@@ -10,6 +10,7 @@ import {footer} from "./footer.js";
     import donBanner from "./img/dons-banner.jpg";
     import donDon from "./img/donMascot.png";
     import aboutUsImg from "./img/aboutUs.jpg";
+    import donsLogo from "./img/donsLogo.png";
     // load menu images
     import starter1 from "./img/menu/starter1.jpg";
     import starter2 from "./img/menu/starter2.jpg";
@@ -22,6 +23,10 @@ import {footer} from "./footer.js";
     import bowl1 from "./img/menu/bowl1.jpg";
     import bowl2 from "./img/menu/bowl2.jpg";
     import bowl3 from "./img/menu/bowl3.jpg";
+    // load social icons
+    import facebook from "./img/social/Facebook_2.png";
+    import instagram from "./img/social/Instagram_2.png";
+    import twitter from "./img/social/Twitter_2.png";
 // load page
 const content = document.getElementById('content');
 start(content);
@@ -32,6 +37,34 @@ menu();
 contact();
 footer();
 // add images
+function addLogo(){
+    const logo = new Image();
+        logo.src = donsLogo;
+        logo.setAttribute("id", "logo");
+    const pageLogoArea = document.getElementById("pageLogo");
+    pageLogoArea.appendChild(logo);
+}
+addLogo();
+function socialIcons(){
+    //social icons
+    const social = document.getElementById("social");
+    // fb
+    const fbIcon = new Image();
+    fbIcon.src = facebook;
+    fbIcon.setAttribute("id", "facebook");
+    social.appendChild(fbIcon);
+    // insta
+    const instaIcon = new Image();
+    instaIcon.src = instagram;
+    instaIcon.setAttribute("id", "instagram");
+    social.appendChild(instaIcon);
+    // Twitter
+    const twitterIcon = new Image();
+    twitterIcon.src = twitter;
+    twitterIcon.setAttribute("id", "twitter");
+    social.appendChild(twitterIcon);
+}
+socialIcons();
 function mascotDon(){
     // don mascot
     const mascot = new Image();

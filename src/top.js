@@ -10,12 +10,10 @@ export function top(){
             left.appendChild(time);
         let center = document.createElement("div");
             center.setAttribute("class", "center");
-            let title = document.createElement("h1");
-                title.textContent = "Don's Cafe";
-            center.appendChild(title);
+            center.setAttribute("id", "pageLogo");
         let right = document.createElement("div");
             right.setAttribute("class", "right");
-            right.innerHTML = ` social links here `;
+            right.setAttribute("id", "social");
     menuWrapper.appendChild(left);
     menuWrapper.appendChild(center);
     menuWrapper.appendChild(right);
