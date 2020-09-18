@@ -150,5 +150,7 @@ function addMenuImages(){
         bowl3Id.prepend(bowl3Img);
 }
 addMenuImages();
+// add tabsy
+import cssTabsy from "../node_modules/tabsy-css/dist/tabsy.css";
 // add css
 import css from "./style.css";
