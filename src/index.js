@@ -47,22 +47,27 @@ function addLogo(){
 addLogo();
 function socialIcons(){
     //social icons
-    const social = document.getElementById("social");
+    const facebookWrapper = document.getElementById("facebookWrapper");
+    const instagramWrapper = document.getElementById("instagramWrapper");
+    const twitterWrapper = document.getElementById("twitterWrapper");
     // fb
     const fbIcon = new Image();
     fbIcon.src = facebook;
     fbIcon.setAttribute("id", "facebook");
-    social.appendChild(fbIcon);
+    facebookWrapper.href = "#";
+    facebookWrapper.appendChild(fbIcon);
     // insta
     const instaIcon = new Image();
     instaIcon.src = instagram;
     instaIcon.setAttribute("id", "instagram");
-    social.appendChild(instaIcon);
+    instagramWrapper.href = "#";
+    instagramWrapper.appendChild(instaIcon);
     // Twitter
     const twitterIcon = new Image();
     twitterIcon.src = twitter;
     twitterIcon.setAttribute("id", "twitter");
-    social.appendChild(twitterIcon);
+    twitterWrapper.href = "#";
+    twitterWrapper.appendChild(twitterIcon);
 }
 socialIcons();
 function mascotDon(){

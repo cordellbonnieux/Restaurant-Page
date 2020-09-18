@@ -23,14 +23,38 @@ body{
     margin:0 auto;
 }
     #menuWrapper{
-        height:50px;
-        background-color:#267E1C;
-        color:#fff;
-        padding: 10px 25px;
+        color:#3E3832;
+        padding: 10px 10px;
+        height:90px;
+        position:relative;
     }
+        #menuWrapper .left{
+            position:absolute;
+            top:15px;
+            left:0;
+        }
+        #menuWrapper .center{
+            width:100%;
+        }
+        #menuWrapper #social{
+            position:absolute;
+            top:15px;
+            right:0;
+        }
+            #menuWrapper #social img{
+                width:32px;
+                margin:0 5px;
+            }
+                #menuWrapper #social a:hover{
+                    cursor:pointer;
+                }
     #header{
         background:url('./img/dons-banner.jpg');
         background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        border-radius:15px;
+        overflow:hidden;
     }
             #header #donMascot{
                 max-width:75%;
@@ -42,18 +66,71 @@ body{
         background-color:transparent;
         padding: 5px 25px;
     }
+        #about{
+            text-align:center;
+        }
+        #about #paraContainer{
+            text-align:left;
+            float:left;
+        }
+        #about div{
+            background-color:#fff;
+            display:inline-block;
+            max-width:45%;
+            padding:10px;
+            margin:0 auto;
+        }
         #about #aboutUsImgSection #aboutUsImg{
-            max-width:400px;
+            max-width:100%;
         }
-        .tabsy > .tabButton{
-            height:32px;
-            background:transparent;
-            color:#fff;
-            padding:13px 10px 5px 10px;
+        #contact{
+            text-align:center;
         }
-            .tabsy > input:checked + label{
-                color:#3E3832;
+            #contact div{
                 background-color:#fff;
+                display:inline-block;
+                max-width:45%;
+                padding:10px;
+                margin:0 auto;
+            }
+            #contact .left{
+                float:left;
+                padding-bottom:25px;
+            }
+                #contact .left address, #contact .left a{
+                    display:block;
+                    margin: 15px 0;
+                    text-align:center;
+                }
+            #contact .right{
+
+            }
+                #contact .right label{
+                    display:inline-block;
+                    width:20%;
+                }
+                #contact .right input{
+                    min-width:80%;
+                    display:inline-block;
+                }
+        .tabsy > .tabButton{
+            margin:5px 15px 0 0;
+            background:#fff;
+            color:#3E3832;
+            padding:12px;
+            border:3px solid #fff;
+            transition:0.5s;
+        }
+            .tabsy > .tabButton:hover{
+                color:#267E1C;
+                border-color:#267E1C;
+                text-decoration:underline;
+                border-radius:0 15px 0 0;           
+            }
+            .tabsy > input:checked + label{
+                color:#267E1C;
+                border-color:#267E1C;
+                border-radius:0 15px 0 0; 
             }
         .tabsy > .tab{
             width:100%;
