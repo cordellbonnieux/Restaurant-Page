@@ -1,3 +1,12 @@
+/* grandstander-regular - latin */
+@font-face{
+    font-family: 'Grandstander';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/grandstander-v2-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/grandstander-v2-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 /* general positioning styles */
 .left, .center, .right{
     display: inline-block;
@@ -12,7 +21,12 @@
     .right{
         text-align:right;
     }
+h2{
+    text-align:left;
+    color:#3E3832;
+}
 body{
+    font-family: 'Grandstander';
     background:url("./img/wallpaper.png");
     background-repeat: repeat;
     color:#3E3832;
@@ -83,10 +97,19 @@ body{
         #about #aboutUsImgSection #aboutUsImg{
             max-width:100%;
         }
+        #menu{
+
+        }
+            .menuItem p{
+                margin-top:0;
+            }
+            .menuItem span{
+                color:#267E1C;
+            }
         #contact{
             text-align:center;
         }
-            #contact div{
+            #contact .left, #contact .right{
                 background-color:#fff;
                 display:inline-block;
                 max-width:45%;
@@ -96,23 +119,46 @@ body{
             #contact .left{
                 float:left;
                 padding-bottom:25px;
+                text-align:center;
             }
                 #contact .left address, #contact .left a{
                     display:block;
                     margin: 15px 0;
-                    text-align:center;
                 }
             #contact .right{
-
+                text-align:left;
             }
+                #contact .inputWrapper{
+                    margin:10px;
+                }
                 #contact .right label{
+                    margin-right:5px;
                     display:inline-block;
-                    width:20%;
                 }
                 #contact .right input{
-                    min-width:80%;
                     display:inline-block;
                 }
+                #contact #textInputArea{
+                    display: block;
+                    width: 100%;
+                    resize: none;  
+                    margin:10px 0;
+                }
+                #contact #sendButton{
+                    padding: 5px 10px;
+                    background-color: #267E1C;
+                    color: #fff;
+                    font-size: 16px;
+                    border: 3px solid #267E1C; 
+                    float:right;
+                    transition:0.5s;
+                }
+                    #contact #sendButton:hover{
+                        cursor:pointer;
+                        border-radius:0 15px 0 0;
+                        background-color:#fff;
+                        color:#267E1C;
+                    }
         .tabsy > .tabButton{
             margin:5px 15px 0 0;
             background:#fff;
@@ -170,10 +216,16 @@ body{
                     height:200px;
                 }
     #footer{
-        background-color:#267E1C;
         min-height:50px;
-        color:#fff;
+        color:#3E3832;
         padding: 5px 25px;
         bottom:0;
         margin:0 auto;
+        font-size:12px;
     }
+        #footer a{
+            color:#267E1C;
+        }
+            #footer a:hover{
+                color:#fff;
+            }

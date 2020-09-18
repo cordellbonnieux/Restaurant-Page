@@ -20,7 +20,7 @@ export function menu(){
             let starter1Title = document.createElement("h3");
                 starter1Title.textContent = "Starter 1"
             let starter1Price = document.createElement("span");
-                starter1Price.textContent = "12";
+                starter1Price.textContent = "$12";
             let starter1Text = document.createElement("p");
                 starter1Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             starters.appendChild(starter1);
@@ -34,7 +34,7 @@ export function menu(){
             let starter2Title = document.createElement("h3");
                 starter2Title.textContent = "Starter 2"
             let starter2Price = document.createElement("span");
-                starter2Price.textContent = "8";
+                starter2Price.textContent = "$8";
             let starter2Text = document.createElement("p");
                 starter2Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             starters.appendChild(starter2);
@@ -48,7 +48,7 @@ export function menu(){
             let starter3Title = document.createElement("h3");
                 starter3Title.textContent = "Starter 3"
             let starter3Price = document.createElement("span");
-                starter3Price.textContent = "7";
+                starter3Price.textContent = "$7";
             let starter3Text = document.createElement("p");
                 starter3Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             starters.appendChild(starter3);
@@ -75,7 +75,7 @@ export function menu(){
             let sandwich1Title = document.createElement("h3");
                 sandwich1Title.textContent = "sandwich 1"
             let sandwich1Price = document.createElement("span");
-                sandwich1Price.textContent = "10";
+                sandwich1Price.textContent = "$10";
             let sandwich1Text = document.createElement("p");
                 sandwich1Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             sandwiches.appendChild(sandwich1);
@@ -89,7 +89,7 @@ export function menu(){
             let sandwich2Title = document.createElement("h3");
                 sandwich2Title.textContent = "sandwich 2"
             let sandwich2Price = document.createElement("span");
-                sandwich2Price.textContent = "11";
+                sandwich2Price.textContent = "$11";
             let sandwich2Text = document.createElement("p");
                 sandwich2Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             sandwiches.appendChild(sandwich2);
@@ -103,7 +103,7 @@ export function menu(){
             let sandwich3Title = document.createElement("h3");
                 sandwich3Title.textContent = "sandwich 3"
             let sandwich3Price = document.createElement("span");
-                sandwich3Price.textContent = "13";
+                sandwich3Price.textContent = "$13";
             let sandwich3Text = document.createElement("p");
                 sandwich3Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             sandwiches.appendChild(sandwich3);
@@ -130,7 +130,7 @@ export function menu(){
             let bowl1Title = document.createElement("h3");
                 bowl1Title.textContent = "Bowl 1"
             let bowl1Price = document.createElement("span");
-                bowl1Price.textContent = "12";
+                bowl1Price.textContent = "$12";
             let bowl1Text = document.createElement("p");
                 bowl1Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             bowls.appendChild(bowl1);
@@ -144,7 +144,7 @@ export function menu(){
             let bowl2Title = document.createElement("h3");
                 bowl2Title.textContent = "Bowl 2"
             let bowl2Price = document.createElement("span");
-                bowl2Price.textContent = "10";
+                bowl2Price.textContent = "$10";
             let bowl2Text = document.createElement("p");
                 bowl2Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             bowls.appendChild(bowl2);
@@ -158,7 +158,7 @@ export function menu(){
             let bowl3Title = document.createElement("h3");
                 bowl3Title.textContent = "Bowl 3"
             let bowl3Price = document.createElement("span");
-                bowl3Price.textContent = "10";
+                bowl3Price.textContent = "$10";
             let bowl3Text = document.createElement("p");
                 bowl3Text.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis tristique diam sed mattis. Nunc scelerisque mollis felis ac molestie.";
             bowls.appendChild(bowl3);
