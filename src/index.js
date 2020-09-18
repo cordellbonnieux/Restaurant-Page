@@ -150,7 +150,7 @@ function addMenuImages(){
         bowl3Id.prepend(bowl3Img);
 }
 addMenuImages();
-// add tabsy
-import cssTabsy from "../node_modules/tabsy-css/dist/tabsy.css";
+// add tabsy this isn't fixing the issue
+import cssTabsy from "./latestTabsy/tabsy.css";
 // add css
 import css from "./style.css";
