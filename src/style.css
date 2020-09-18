@@ -229,3 +229,7 @@ body{
             #footer a:hover{
                 color:#fff;
             }
+/* GH pages is having a hard time loading tabsy, so here are my modifications */
+.tabsy > input {
+    display: none;
+}
