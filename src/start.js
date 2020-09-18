@@ -28,8 +28,10 @@ export function start(content){
             footerLeft.setAttribute("class", "left");
         let footerCenter = document.createElement("div");
             footerCenter.setAttribute("class", "center");
+            footerCenter.setAttribute("id", "credit");
         let footerRight = document.createElement("div");
             footerRight.setAttribute("class", "right");
+            footerRight.setAttribute("id", "goUp");
         footer.appendChild(footerLeft);
         footer.appendChild(footerCenter);
         footer.appendChild(footerRight);
